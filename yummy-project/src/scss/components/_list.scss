@@ -1,0 +1,12 @@
+li {
+    list-style: none;
+    margin: 20px;
+    transition: 1s;
+    text-decoration: none;
+    color: gray;
+
+    &:hover {
+        text-decoration: underline red;
+
+    }
+}

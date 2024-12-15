@@ -1,0 +1,41 @@
+.card {
+    display: grid;
+    grid-template-columns: (repeat(4, 1fr));
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 5% auto;
+    gap: 5px;
+
+    .box {
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 5%;
+        width: 80%;
+        padding: 5%;
+    }
+
+    .box1 {
+        background-color: red;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 5%;
+        padding: 5%;
+        width: 90%;
+        color: white;
+    }
+}
+
+.items {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+
+    .icons {
+        font-size: 3em;
+        color: red;
+
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+    }
+}

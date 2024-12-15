@@ -1,0 +1,47 @@
+.item {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .img1 {
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        object-position: top;
+        overflow: hidden;
+        transition: 2s;
+
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+
+    .audio {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .text {
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+.img2 {
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 40%;
+
+    &:hover {
+        animation: rotated 5s linear infinite normal;
+    }
+
+    @keyframes rotated {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

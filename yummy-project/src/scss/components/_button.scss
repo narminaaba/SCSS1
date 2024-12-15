@@ -1,0 +1,26 @@
+button {
+    color: white;
+    text-align: center;
+    background-color: rgb(211, 26, 26);
+    width: 8em;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(211, 26, 26);
+    transition: 2s;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+    &:hover {
+        background-color: white;
+        color: rgb(211, 26, 26);
+    }
+}
